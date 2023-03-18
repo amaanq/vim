@@ -1159,6 +1159,9 @@ au BufNewFile,BufRead */etc/login.access	setf loginaccess
 " Login defs
 au BufNewFile,BufRead */etc/login.defs		setf logindefs
 
+" Logo
+au BufNewFile,BufRead *.lgo			setf logo
+
 " Logtalk
 au BufNewFile,BufRead *.lgt			setf logtalk
 

@@ -335,6 +335,7 @@ let s:filename_checks = {
     \ 'logcheck': ['/etc/logcheck/file.d-some/file', '/etc/logcheck/file.d/file', 'any/etc/logcheck/file.d-some/file', 'any/etc/logcheck/file.d/file'],
     \ 'loginaccess': ['/etc/login.access', 'any/etc/login.access'],
     \ 'logindefs': ['/etc/login.defs', 'any/etc/login.defs'],
+    \ 'logo': ['file.lgo'],
     \ 'logtalk': ['file.lgt'],
     \ 'lotos': ['file.lot', 'file.lotos'],
     \ 'lout': ['file.lou', 'file.lout'],
